@@ -4,3 +4,24 @@ data-science-7
 
 - В этом уроке познакомимся с merge и join в Pandas
 - А также рассмотрим продвинутый прием по работе с данными при помощи метода apply.
+
+
+Обязательно запомните типы merge и join, это справедливо не только для Pandas, но и для работы с базами данных.
+
+LEFT JOIN
+FULL OUTER JOIN
+LEFT JOIN (if NULL)
+INNER JOIN
+RIGHT JOIN
+RIGHT JOIN (if NULL)
+
+
+SQL JOINS
+
+SELECT <select_list> FROM TableA A LEFT JOIN TableB B ON A.Key = B.Key
+SELECT <select_list> FROM TableA A INNER JOIN TableB B ON A.Key=B.Key
+SELECT <select_list> FROM TableA A RIGHT JOIN TableB B ON A.Key=B.Key
+SELECT <select_list> FROM TableA A LEFT JOIN TableB B ON A.Key=B.Key WHERE B.Key IS NULL
+SELECT <select_list> FROM TableA A RIGHT JOIN TableB B ON A.Key=B.Key WHERE A.Key IS NULL
+SELECT <select_list> FROM TableA A FULL OUTER JOIN TableB B ON A.Key = B.Key
+SELECT <select_list> FROM TableA A FULL OUTER JOIN TableB B ON A.Key=B.Key WHERE A.Key IS NULL OR B.Key IS NULL
