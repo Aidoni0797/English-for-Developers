@@ -8,4 +8,8 @@ you visit the VS Code website, and not the Visual Studio website.
 For Windows, you can download an EXE installer. Once you're downloaded it, run the file and the setup wizard will take you
 through the installation process.
 
-For Mac, you can download a zip archive which contains a .app that you can run. You can also install VS Code 
+For Mac, you can download a zip archive which contains a .app that you can run. You can also install VS Code via homebrew.
+
+Open up the Terminal app on your Mac and run the following command:
+
+
