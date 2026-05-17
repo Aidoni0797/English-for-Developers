@@ -35,4 +35,12 @@ browser.
 Another popular cloud-based editor is GitHub Codespaces. This is a cloud-based development tools directly from GitHub,
 enabling seamless coding and collaboration.
 
-And another one is Ona. Ona is a cloud-based development environment that integrates with GitHubs
+And another one is Ona. Ona is a cloud-based development environment that integrates with GitHub and GitLab, offering,
+instant, customizable workspaces for coding, building, and debugging directly from your browwser.
+
+And there many more options. Some options, such as Visual Studio Coode are highly extensible and can work with
+multiple different project types and languages. Other options might be specifically tailored to a small subset of
+languages or project types.
+
+The application you use might be different for specific projects. You should explore the options to see what will
+work best for your needs.
