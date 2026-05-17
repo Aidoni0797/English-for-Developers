@@ -32,4 +32,7 @@ can use.
 A cloud-based editor is an online tool that allows users to write, edit, and manage code or text directly from a web
 browser.
 
-Another popular cloud-based editor is GitHub Codespaces. This is a cloud-based development tools directly from
+Another popular cloud-based editor is GitHub Codespaces. This is a cloud-based development tools directly from GitHub,
+enabling seamless coding and collaboration.
+
+And another one is Ona. Ona is a cloud-based development environment that integrates with GitHubs
