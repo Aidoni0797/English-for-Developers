@@ -2,4 +2,13 @@ Relational-Databases-3
 
 How to Create a Project and Run Your Code Lacally in vs Code
 
-To get started, you should know that VS Code considers projects to be "workspaces". The workspace is 
+To get started, you should know that VS Code considers projects to be "workspaces". The workspace is whichever
+directory you opened in VS Code.
+
+To begin, you will need to use a command line interface to create a new directory for your new project. A directory
+is another name for the folder.
+
+Command-line interfaces, or CLI for short, allow you to interact with your operating system through text-based commands.
+Ypu will learn more about these in future lessons.
+
+if you are on Windows, you can use the Command Prompt or PowerShell. If you are on a Mac, o
