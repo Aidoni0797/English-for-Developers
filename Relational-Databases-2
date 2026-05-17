@@ -12,4 +12,9 @@ For Mac, you can download a zip archive which contains a .app that you can run. 
 
 Open up the Terminal app on your Mac and run the following command:
 
+brew install --cask visual-studio-code
+
+On Linux, you can download a .deb or .rpm file directory. Once you have it installed, you can use the appropriate executable,
+or CLI command (typically code), to lunch the application. And now you're ready to code.
+
 
