@@ -33,4 +33,4 @@ Now you should see your new file in the explorer tab. Try adding some HTML to yo
 Now you might be temted to open the HTML file in your browser directly. While that can eork, it  can also lead 
 to all sorts of unexpected bugs, such as CSS not loading properly.
 
-Instead, you should put your HTML file behind a proper web server. That can sound 
+Instead, you should put your HTML file behind a proper web server. That can sound like an intimidating
