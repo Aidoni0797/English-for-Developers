@@ -1,1 +1,27 @@
 Relational-Databases-1
+What is a Code Editor and IDE?
+
+You might think these are the same thing, but not quite. A code editor is any application that allows you to edit code
+files. An IDE, or Integrated development environment by Microsoft that provides a comprehensive suite of tools for
+building, debugging, and deploying applications across various platforms.
+
+Another IDE is XCODE. Xcode is an integrated development environment by Apple designed for creating, coding, and
+debugging applications for macOS, iOS, watchOS, and tvOS.
+
+And another IDE would be Android Studio. Android Studio is an integrated development environment by Google
+specifically designed for building, debugging, and testing Android applications.
+
+Those are just a few examples of IDEs. Now, let's take a look at a few popular code editors.
+
+Visual Studio Code is a lightweight, open-source code editor by Microsoft that supports a wide range of programming
+languages and provides features like debugging, syntax hightlighting, and version control through extensions.
+
+Another popular editor would be Sublime Text. Sublime Text is a fast, versatile text editor known for its sleek 
+interface, powerful feautures, and support for a wide range of programming languages through customizable syntax
+hightlighting and plugins.
+
+And another one is Notepad++. This is a free, open-source, text and source code editor for Windows that offers syntax
+hightlighting, code folding, and a range of plugings to enhance productivity and customization.
+
+You may have noticed how the code editors focus primarily on the text contents of the file, where the IDEs expose 
+various tools to manage your code.
