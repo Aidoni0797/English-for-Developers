@@ -29,4 +29,7 @@ various tools to manage your code.
 These examples are all local programs you can run on your computer, but there are also cloud-based editors that you 
 can use.
 
-A cloud-based editor is an online tool that allows users to write, edit, and manage code or text directly 
+A cloud-based editor is an online tool that allows users to write, edit, and manage code or text directly from a web
+browser.
+
+Another popular cloud-based editor is GitHub Codespaces. This is a cloud-based development tools directly from
