@@ -36,4 +36,11 @@ with APIs, databases, or UI elemenys based on their  own internal reasoning.
 
 AI-powered scanner vulnerabilities
 
-Most AI-powered scanner vulnera
+Most AI-powered scanner vulnerabilities arise when attacker-controlled content influences the scanner's reasoning and tool
+usage. This occurs because these scanners treat the text they analyze as a source of information to plan their next move.
+If the AI model cannot rellably distinguish between application data and intructions, then untrusted content can alter
+scanner behaviour.
+
+Indirect prompt injection in AI-powered scanners.
+Indirect prompt injection is a significant risk with AI agents. This occurs when an attacker embeds malicous instructions
+in stored content, which the scanner then 
