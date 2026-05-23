@@ -9,4 +9,31 @@ In this secition, we'll explore how these agents operate and the techniques that
 
 What are AI-powered web application security scanners?
 
-AI-powered scanners are web security testing
+AI-powered scanners are web security testing tools that combine traditional crawling and request generation with LLM-driven
+reasoning. Like traditional Dynamic Application Security Testing (DAST) scanners, they can:
+
+- Authenticate as users.
+- Crawl applications.
+- Send HTTP requests.
+- Chain multiple actions.
+
+Traditinal vs AI-powered scanners
+
+The key difference between traditional and AI-powered scanners is how desicions are made.
+
+Traditional scanners use a rigid, instruction-based  architecture. Because these tools lack semantic understanding, they
+cannot "read" a page to determine its purpose. Instead, they rely on pattern matching and known vulnerability signatures.
+
+In contrast, AI-powered scanners replace rigid logic with autonomous reasoning. Rather than following a static script, these books 
+use LLMs to interpret web content and plan their next actions.
+
+Some key behaviours of AI-powered scanners from a security perspective include:
+- Using LLM reasoning to decide what to test next. They evaluate the state of the applicaion to determine a logical next step.
+- Interpreting application responses semantically They read the text in a response to  understand its context, enavling them
+to identify complex business logic that a traditional scanner might ignore.
+- Selecting tools and constructing requests based on model output. Aome AI scanners use "tool-calling" capabilities to interact
+with APIs, databases, or UI elemenys based on their  own internal reasoning.
+
+AI-powered scanner vulnerabilities
+
+Most AI-powered scanner vulnera
