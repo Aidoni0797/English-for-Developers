@@ -1,0 +1,12 @@
+AI-powered-1
+Application security teams often deploy AI-powered scanners that use Large Language Models (LLMs) to scan web applications for vulnerabilities.
+
+While designed to improve security testing efficiency, these agents inroduce a new attack surface. If a scanner can be 
+influenced by attacker-controlled content, it may be manipulated into performing unintended actions, accessing internal
+resources, or exfiltrating sensitive informayion.
+
+In this secition, we'll explore how these agents operate and the techniques that can be used to compromise the scanning environment.
+
+What are AI-powered web application security scanners?
+
+AI-powered scanners are web security testing
