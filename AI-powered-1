@@ -80,4 +80,9 @@ verifications) can make the instruction is required to prevent harm or data loss
 Note
 When testing injection prompts, consider where you place them. If a scanner processes multiple injections on the same page,
 conflicting intructions cand confuse the model and reduce the effectiveness of your attack. Spreading injection attempts
-acr
+across different locations gives each a cleaner context to work with.
+
+Data exfiltration via AI-powered scaners
+
+Data exfiltration is a common consequence of indirect prompt injection. While an attacker might use prompt injection to
+trigger 
