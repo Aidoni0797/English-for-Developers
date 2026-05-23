@@ -85,4 +85,25 @@ across different locations gives each a cleaner context to work with.
 Data exfiltration via AI-powered scaners
 
 Data exfiltration is a common consequence of indirect prompt injection. While an attacker might use prompt injection to
-trigger 
+trigger state-changing actions, they can also use it to disclose sensitive information that is otherwise inaccessibl.
+
+The attack typically follows this sequence:
+1. The scanner retrieves sensitive data as part of its normal testing workflow, such as crawling an admin-only 
+configuration page or an internal API.
+2. The attacker provides malicious instructions via untrusted content, for example a product review, that the 
+scanner processes during its crawl.
+3. The injected prompt directs the LLM to disclose the sensitive data.
+4. The scanner outputs the sensitive data to a location visible to the attacker, for example by posting it in a public-facing form 
+or a feedback field.
+
+For example, a scanner might be tricked into "testing" an internal endpoint and then posting the retrieved credentials 
+publicly.
+
+Exploting routing-based SSRF to bypass retrictions
+
+Even if high-risk APIs are retricted and sensive data is protected. AI-powered scanners can still be manipulated into making
+unintented internal requeests. This is because scanners typically run inside the internal network and can construct 
+arbitrary HTTP requests, effectively making them a programmable Server-Side Request Forgery (SSRF) vector.
+
+One way to exploit this is through routing-based SSRF. This can occur via several mechanisms, including open redirects.
+URL interpretation discrepancies between 
