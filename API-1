@@ -34,7 +34,7 @@ valid HTTP requests to test the API. For example, you should find out informatio
 - The type of requests the API accepts, including supported HTTP methods and media formats.
 - Rate limits and authentication mechanisms.
 
-API dosumentation
+API documentation
 
 APIs are ususally documented so that developers know how to use and integrate with them.
 
@@ -43,4 +43,11 @@ for developers to understand how to use the API. It may include detailed explana
 Machine-readable documentation is designed to be processed by software for automating tasks like API integration 
 and validation. It's written in structured formats like JSON or XML.
 
-API documentation is often publicly availa
+API documentation is often publicly available, particularly if the API is intended for use by external developers.
+If this is the case, always start your recon vy reviewing the documentation.
+
+Discovering API documentation 
+Even if API documentation isn't openly availably, you may still be able to access it by browsing applications
+that use the API.
+
+To do this, you can use 
