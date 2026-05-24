@@ -69,4 +69,17 @@ Using machine - readable dosumentation
 
 You can use a range of automated tools to analyze any machine-readable API documentation that you find.
 
-You can use Burp Scanner to crawl and 
+You can use Burp Scanner to crawl and audit OpenAPI documentation, or any other documentation in JSON or YAML format. You 
+can also parse OpenAPI documentation using the OperAPI Parser BApp.
+
+You may also be able to use a specialized tool to test the documented endpoints, such as Postman or SoupUI.
+
+Indentifying API endpoints
+
+You can also gather a lot of information by browsing applications that use the API. This is often woth doing even if 
+you have access to API documentation, as sometimes documentation may be in accurate or out of date.
+
+You can use Burp Scanner to crawl the application, then manually investigate interesting attack surface using Burp's browser.
+
+While browsing the application, look for patterns that suggest API endpoints in the URL structure, such as /api/. Also look
+out for JavaScript files. These can contain references to API endpoints 
