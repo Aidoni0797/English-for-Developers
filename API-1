@@ -82,4 +82,5 @@ you have access to API documentation, as sometimes documentation may be in accur
 You can use Burp Scanner to crawl the application, then manually investigate interesting attack surface using Burp's browser.
 
 While browsing the application, look for patterns that suggest API endpoints in the URL structure, such as /api/. Also look
-out for JavaScript files. These can contain references to API endpoints 
+out for JavaScript files. These can contain references to API endpoints that you haven't triggered directly via
+web browser. Burp Scanner automatically extracts some endpoints during crawls, but for a more
