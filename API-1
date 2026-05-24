@@ -25,4 +25,22 @@ Host: example.com
 
 The API endpoint for this request is api/books. This results in an interaction with the API to retrieve a list of books from
 a library. Another API endpoint might be, for example,
-/api/books/mystery, which would retrieve 
+/api/books/mystery, which would retrieve a list of mystery books.
+
+Once you have identified the endpoints, you need to determine how to interact with them. This enables you to construct 
+valid HTTP requests to test the API. For example, you should find out information about the following:
+
+- The input data the API processes, including both compulsory and optional parameters.
+- The type of requests the API accepts, including supported HTTP methods and media formats.
+- Rate limits and authentication mechanisms.
+
+API dosumentation
+
+APIs are ususally documented so that developers know how to use and integrate with them.
+
+Documentation can be in both  human-readable and machine-readable forms. Human-readable documentation is designed 
+for developers to understand how to use the API. It may include detailed explanations, examples, and usage scenarious.
+Machine-readable documentation is designed to be processed by software for automating tasks like API integration 
+and validation. It's written in structured formats like JSON or XML.
+
+API documentation is often publicly availa
